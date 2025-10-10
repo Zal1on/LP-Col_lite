@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.2" baseProfile="tiny" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+	 x="0px" y="0px" viewBox="0 0 25.34 25.77" overflow="visible" xml:space="preserve">
+<path display="none" fill="none" stroke="#E30512" stroke-width="0.25" stroke-miterlimit="10" d="M-652.55,2.23
+	c2.55,0,4.58,2.03,4.58,4.54v12.69c0,2.51-2.03,4.54-4.58,4.54h-11.76c-2.52,0-4.54-2.03-4.54-4.54V6.77c0-2.52,2.03-4.54,4.54-4.54
+	H-652.55z M-651.64,7.6c0-1.1-0.9-2-2-2h-9.53c-1.1,0-2,0.9-2,2v10.83c0,1.1,0.9,2,2,2h9.53c1.1,0,2-0.9,2-2V7.6z"/>
+<rect x="25.89" y="2.23" display="none" fill="#FFEC08" width="3.59" height="3.37"/>
+<rect x="47.57" y="2.23" display="none" fill="#FFEC08" width="3.59" height="3.37"/>
+<rect x="67.38" y="2.23" display="none" fill="#FFEC08" width="3.59" height="3.37"/>
+<rect x="4.01" y="2.23" display="none" fill="#FFEC08" width="3.59" height="3.59"/>
+<rect x="-31.9" y="2.23" display="none" fill="#FFEC08" width="3.59" height="3.59"/>
+<rect x="-47.49" y="9.25" display="none" fill="#FFEC08" width="3.59" height="3.59"/>
+<polygon display="none" fill="#FFEC08" points="-24.72,20.44 -28.31,20.44 -28.31,23.99 -24.72,23.99 -22.91,23.99 -22.91,20.44 "/>
+<polygon display="none" fill="#FFEC08" points="1.43,20.44 -2.16,20.44 -2.16,23.99 1.43,23.99 3.24,23.99 3.24,20.44 "/>
+<polygon display="none" fill="#FFEC08" points="21.92,20.44 18.34,20.44 18.34,23.99 21.92,23.99 23.73,23.99 23.73,20.44 "/>
+<polygon display="none" fill="#FFEC08" points="30.89,20.44 27.3,20.44 27.3,23.99 30.89,23.99 32.7,23.99 32.7,20.44 "/>
+<polygon display="none" fill="#FFEC08" points="55.92,20.44 52.33,20.44 52.33,23.99 55.92,23.99 57.72,23.99 57.72,20.44 "/>
+<rect x="151.18" y="-9.35" display="none" fill="#1B1B19" width="142" height="45.17"/>
+<rect x="17.61" y="2.23" fill="#444F5F" width="5.07" height="5.11"/>
+<path fill="#E5004C" d="M17.61,2.23c0,0-8.35,0-8.41,0c-3.45,0-7.04,3.04-7.27,6.86c0,0,0,13.83,0,14.91c3.69,0,5.01-4,5.01-5.11
+	V9.8c0-0.18,0.12-2.29,2.42-2.47c0,0,7.12,0,8.25,0C17.61,2.23,17.61,2.23,17.61,2.23z"/>
+<g>
+	<path fill="#4FBBB8" d="M7.27,8.63c0.02-0.03,0.03-0.07,0.05-0.1C7.3,8.56,7.28,8.59,7.27,8.63z"/>
+	<path fill="#4FBBB8" d="M7.48,8.3c0.06-0.07,0.11-0.15,0.17-0.21C7.58,8.16,7.53,8.23,7.48,8.3z"/>
+	<path fill="#4FBBB8" d="M6.95,9.8c0-0.09,0.02-0.18,0.03-0.27C6.96,9.66,6.95,9.77,6.95,9.8z"/>
+	<path fill="#4FBBB8" d="M7.86,7.91c0.06-0.05,0.11-0.1,0.17-0.15C7.96,7.8,7.92,7.86,7.86,7.91z"/>
+	<path fill="#4FBBB8" d="M17.61,7.33v9.1c0,1.33-1.05,2.46-2.42,2.46H6.95C6.95,20,5.63,24,1.94,24h5.05h8.19
+		c4.19,0,7.52-3.39,7.52-7.59V7.33H17.61z"/>
+</g>
+</svg>

@@ -1,0 +1,21 @@
+{
+  "name": "coligo-email-service",
+  "version": "1.0.0",
+  "description": "Email service for COLIGO demo request form using SendGrid",
+  "main": "send_email.js",
+  "scripts": {
+    "start": "node send_email.js",
+    "dev": "nodemon send_email.js"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^8.1.0",
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": ["sendgrid", "email", "form", "coligo"],
+  "author": "Your Name",
+  "license": "MIT"
+}

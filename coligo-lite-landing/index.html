@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COLIGO lite - AI + MQTT for Real-Time Edge Analytics</title>
+    <meta name="description" content="Request a live demo of COLIGO lite - containerized AI module for edge analytics with streaming learning and MQTT integration">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="coligo-logo.svg" alt="COLIGO" class="logo-img">
+                <span class="logo-text">COLIGO lite</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <!-- Background Video -->
+        <video class="hero-video" autoplay muted loop>
+            <source src="hero-video.mp4" type="video/mp4">
+            
+            Your browser does not support the video tag.
+        </video>
+        
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-headline">See COLIGO lite in action — AI + MQTT for real-time edge analytics</h1>
+                    <p class="hero-subline">
+                        Request a live demo and discover how you can deploy<br>
+                        anomaly detection, predictive insights, and streaming AI<br>
+                        directly into your IoT system — without coding
+                    </p>
+                    <button class="cta-button primary" onclick="scrollToForm()">Book My Demo</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">What You'll See in the Demo:</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">📡</div>
+                    <h3>Live data ingestion via MQTT</h3>
+                    <p>Seamlessly connect to your existing IoT infrastructure</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔍</div>
+                    <h3>Real-time anomaly detection & predictions</h3>
+                    <p>Streaming AI that adapts and learns without batch datasets</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎛️</div>
+                    <h3>Interactive UI to configure models & view alerts</h3>
+                    <p>No-code interface for model management and monitoring</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🏗️</div>
+                    <h3>Architecture view: devices, broker, and AI module</h3>
+                    <p>Visualize how everything connects in your system</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📦</div>
+                    <h3>Container deployment & ease of integration</h3>
+                    <p>Deploy anywhere with our containerized solution</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔄</div>
+                    <h3>Streaming learning in action</h3>
+                    <p>See how the model adapts in real time as new data arrives</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Demo Form Section -->
+    <section class="demo-form-section" id="demo-form">
+        <div class="container">
+            <div class="form-content">
+                <div class="form-text">
+                    <h2>Ready to see COLIGO lite in action?</h2>
+                    <p>Book a 30-minute live demo and see how streaming AI can transform your IoT analytics</p>
+                    
+                    <!-- Small Demo Video -->
+                    <div class="demo-video-container">
+                        <video class="demo-video" autoplay muted loop>
+                            <source src="demo-video.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+                <div class="form-container">
+                    <form class="demo-form" id="demoForm" action="send_email_fallback.php" method="POST">
+                        <div class="form-group">
+                            <label for="name">Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="company">Company *</label>
+                            <input type="text" id="company" name="company" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="usecase">Use case / Device types (Optional)</label>
+                            <textarea id="usecase" name="usecase" placeholder="e.g., Industrial sensors, Smart building, Manufacturing equipment..."></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="datetime">Preferred Demo Time *</label>
+                            <input type="datetime-local" id="datetime" name="datetime" required>
+                        </div>
+                        <button type="submit" class="cta-button primary">Schedule a Live Demo</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>How long is the demo?</h3>
+                    <p>~30 minutes</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Is coding required?</h3>
+                    <p>No — it's a no-code experience</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What kind of data is required?</h3>
+                    <p>MQTT topic streams (sensor, event, metrics, etc.)</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Can I deploy it on my systems?</h3>
+                    <p>Yes — we deliver COLIGO lite as a container.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Do I need historical data first?</h3>
+                    <p>No — streaming learning allows immediate use.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Do I need special hardware to run COLIGO lite?</h3>
+                    <p>No. COLIGO lite runs as a container, so it works on standard edge devices, servers, or in the cloud. As long as your system supports containers and MQTT, you're ready to go.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-links">
+                    <a href="#privacy">Privacy</a>
+                    <a href="#terms">Terms</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-logo">
+                    <span>COLIGO lite</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile Sticky CTA -->
+    <button class="sticky-cta" id="stickyCta" onclick="scrollToForm()" style="display: none;">
+        Book My Demo
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
