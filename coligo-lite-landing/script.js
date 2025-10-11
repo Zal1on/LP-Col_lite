@@ -47,20 +47,20 @@ document.addEventListener('DOMContentLoaded', function() {
             return;
         }
         
-        // Submit via SendGrid (PHP backend)
+        // Submit via SendGrid (Netlify Function)
         const submitButton = form.querySelector('button[type="submit"]');
         const originalText = submitButton.textContent;
         
         submitButton.textContent = 'Scheduling...';
         submitButton.disabled = true;
         
-        // Send email via PHP script
-        fetch('send_email.php', {
+        // Send email via Netlify function
+        fetch('/.netlify/functions/send-email', {
             method: 'POST',
             headers: {
-                'Content-Type': 'application/x-www-form-urlencoded',
+                'Content-Type': 'application/json',
             },
-            body: new URLSearchParams(data),
+            body: JSON.stringify(data),
             mode: 'cors',
             credentials: 'omit'
         })
