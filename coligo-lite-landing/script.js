@@ -1,3 +1,11 @@
+// Suppress Google Analytics errors
+window.addEventListener('error', function(e) {
+    if (e.message && e.message.includes('gx_no_16') || e.message && e.message.includes('staticLoadtimePalette')) {
+        e.preventDefault();
+        return false;
+    }
+});
+
 // Smooth scrolling to form
 function scrollToForm() {
     document.getElementById('demo-form').scrollIntoView({
