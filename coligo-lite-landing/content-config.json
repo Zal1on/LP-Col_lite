@@ -1,0 +1,99 @@
+{
+  "site": {
+    "title": "COLIGO - AI + MQTT for Real-Time Edge Analytics",
+    "description": "Request a live demo of COLIGO lite - containerized AI module for edge analytics with streaming learning and MQTT integration",
+    "logo_text": "COLIGO ",
+    "cta_button_text": "Book My Demo"
+  },
+  "hero": {
+    "headline": "See COLIGO lite in action — AI + MQTT for real-time edge analytics",
+    "subheadline": "Request a live demo and discover how you can deploy<br>anomaly detection, predictive insights, and streaming AI<br>directly into your IoT system — without coding"
+  },
+  "demo_form": {
+    "title": "Ready to see COLIGO lite in action?",
+    "subtitle": "Book a 30-minute live demo and see how streaming AI can transform your IoT analytics",
+    "submit_button_text": "Schedule a Live Demo"
+  },
+  "demo_features": {
+    "title": "What You'll See in the Demo:",
+    "features": [
+      {
+        "icon": "📡",
+        "title": "Live data ingestion via MQTT",
+        "description": "Seamlessly connect to your existing IoT infrastructure"
+      },
+      {
+        "icon": "🔍",
+        "title": "Real-time anomaly detection & predictions",
+        "description": "Streaming AI that adapts and learns without batch datasets"
+      },
+      {
+        "icon": "🎛️",
+        "title": "Interactive UI to configure models & view alerts",
+        "description": "No-code interface for model management and monitoring"
+      },
+      {
+        "icon": "🏗️",
+        "title": "Architecture view: devices, broker, and AI module",
+        "description": "Visualize how everything connects in your system"
+      },
+      {
+        "icon": "📦",
+        "title": "Container deployment & ease of integration",
+        "description": "Deploy anywhere with our containerized solution"
+      },
+      {
+        "icon": "🔄",
+        "title": "Streaming learning in action",
+        "description": "See how the model adapts in real time as new data arrives"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "How long is the demo?",
+        "answer": "~30 minutes"
+      },
+      {
+        "question": "Is coding required?",
+        "answer": "No — it's a no-code experience"
+      },
+      {
+        "question": "What kind of data is required?",
+        "answer": "MQTT topic streams (sensor, event, metrics, etc.)"
+      },
+      {
+        "question": "Can I deploy it on my systems?",
+        "answer": "Yes — we deliver COLIGO lite as a container."
+      },
+      {
+        "question": "Do I need historical data first?",
+        "answer": "No — streaming learning allows immediate use."
+      },
+      {
+        "question": "Do I need special hardware to run COLIGO lite?",
+        "answer": "No. COLIGO lite runs as a container, so it works on standard edge devices, servers, or in the cloud. As long as your system supports containers and MQTT, you're ready to go."
+      }
+    ]
+  },
+  "footer": {
+    "logo_text": "COLIGO lite",
+    "links": [
+      {
+        "text": "Privacy",
+        "url": "#privacy"
+      },
+      {
+        "text": "Terms",
+        "url": "#terms"
+      },
+      {
+        "text": "Contact",
+        "url": "#contact"
+      }
+    ]
+  }
+}
+
