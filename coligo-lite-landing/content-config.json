@@ -1,16 +1,16 @@
 {
   "site": {
-    "title": "COLIGO lite - AI + MQTT for Real-Time Edge Analytics",
-    "description": "Request a live demo of COLIGO lite - containerized AI module for edge analytics with streaming learning and MQTT integration",
-    "logo_text": "COLIGO lite",
+    "title": "COLIGO - AI + OPC UA for Real-Time Edge Monitoring & Analytics",
+    "description": "Request a live demo of COLIGO  - containerized AI module for edge analytics with streaming learning and OPC UA integration",
+    "logo_text": "COLIGO ",
     "cta_button_text": "Book My Demo"
   },
   "hero": {
-    "headline": "See COLIGO lite in action — AI + MQTT for real-time edge analytics",
-    "subheadline": "Request a live demo and discover how you can deploy<br>anomaly detection, predictive insights, and streaming AI<br>directly into your IoT system — without coding"
+    "headline": "Monitor. Analyze. Optimize. — All in real time.",
+    "subheadline": "COLIGO gives you full visibility and control of your operations through live monitoring, seamless OPC UA integration, and streaming AI — no coding required"
   },
   "demo_form": {
-    "title": "Ready to see COLIGO lite in action?",
+    "title": "Ready to see COLIGO in action?",
     "subtitle": "Book a 30-minute live demo and see how streaming AI can transform your IoT analytics",
     "submit_button_text": "Schedule a Live Demo"
   },
@@ -19,7 +19,7 @@
     "features": [
       {
         "icon": "📡",
-        "title": "Live data ingestion via MQTT",
+        "title": "Live data ingestion via OPC UA",
         "description": "Seamlessly connect to your existing IoT infrastructure"
       },
       {
@@ -38,9 +38,9 @@
         "description": "Visualize how everything connects in your system"
       },
       {
-        "icon": "📦",
-        "title": "Container deployment & ease of integration",
-        "description": "Deploy anywhere with our containerized solution"
+        "icon": "🛰",
+        "title": "Live monitoring dashboard",
+        "description": "full visibility of data streams, devices, and system health in real time"
       },
       {
         "icon": "🔄",
@@ -62,24 +62,24 @@
       },
       {
         "question": "What kind of data is required?",
-        "answer": "MQTT topic streams (sensor, event, metrics, etc.)"
+        "answer": "OPC UA topic streams (sensor, event, metrics, etc.)"
       },
       {
-        "question": "Can I deploy it on my systems?",
-        "answer": "Yes — we deliver COLIGO lite as a container."
+        "question": "How is COLIGO different from COLIGO lite?",
+        "answer": "COLIGO includes everything in COLIGO lite plus real-time monitoring, giving you complete visibility of devices, topics, and data flows in one place."
       },
       {
         "question": "Do I need historical data first?",
         "answer": "No — streaming learning allows immediate use."
       },
       {
-        "question": "Do I need special hardware to run COLIGO lite?",
-        "answer": "No. COLIGO lite runs as a container, so it works on standard edge devices, servers, or in the cloud. As long as your system supports containers and MQTT, you're ready to go."
+        "question": "Can I monitor and analyze at the same time?",
+        "answer": " Yes — the Monitor and AI modules work together to give you real-time visibility and predictive insights."
       }
     ]
   },
   "footer": {
-    "logo_text": "COLIGO lite",
+    "logo_text": "COLIGO",
     "links": [
       {
         "text": "Privacy",
