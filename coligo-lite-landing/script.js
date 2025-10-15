@@ -131,16 +131,6 @@ document.addEventListener('DOMContentLoaded', function() {
 document.addEventListener('DOMContentLoaded', function() {
     const form = document.getElementById('demoForm');
     
-    // Set minimum date to today
-    const datetimeInput = document.getElementById('datetime');
-    const now = new Date();
-    const year = now.getFullYear();
-    const month = String(now.getMonth() + 1).padStart(2, '0');
-    const day = String(now.getDate()).padStart(2, '0');
-    const hours = String(now.getHours()).padStart(2, '0');
-    const minutes = String(now.getMinutes()).padStart(2, '0');
-    
-    datetimeInput.min = `${year}-${month}-${day}T${hours}:${minutes}`;
     
     // Form submission - temporarily disabled for testing
     form.addEventListener('submit', function(e) {
@@ -150,7 +140,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const data = Object.fromEntries(formData);
         
         // Basic validation
-        if (!data.name || !data.email || !data.company || !data.datetime) {
+        if (!data.name || !data.email || !data.company) {
             alert('Please fill in all required fields.');
             return;
         }
@@ -162,12 +152,6 @@ document.addEventListener('DOMContentLoaded', function() {
             return;
         }
         
-        // Date validation (must be in the future)
-        const selectedDate = new Date(data.datetime);
-        if (selectedDate <= now) {
-            alert('Please select a future date and time for your demo.');
-            return;
-        }
         
         // Submit via SendGrid (Netlify Function)
         const submitButton = form.querySelector('button[type="submit"]');
@@ -193,7 +177,7 @@ document.addEventListener('DOMContentLoaded', function() {
         .then(result => {
             console.log('Result:', result);
             if (result.success) {
-                showSuccessMessage(data.name, selectedDate);
+                showSuccessMessage(data.name);
                 form.reset();
             } else {
                 console.error('Server error:', result);
@@ -225,12 +209,12 @@ function formatDateTime(date) {
 }
 
 // Show success message
-function showSuccessMessage(name, date) {
+function showSuccessMessage(name) {
     const successDiv = document.createElement('div');
     successDiv.className = 'form-success';
     successDiv.innerHTML = `
         <strong>Thank you, ${name}!</strong><br>
-        Your demo request has been submitted for ${formatDateTime(date)}.<br>
+        Your demo request has been submitted.<br>
         We'll send you a confirmation email shortly.
     `;
     
@@ -326,16 +310,3 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-// Suggest optimal demo times
-document.addEventListener('DOMContentLoaded', function() {
-    const datetimeInput = document.getElementById('datetime');
-    
-    // Add helper text for optimal times
-    const helperText = document.createElement('small');
-    helperText.textContent = 'Tip: Demos are typically available Monday-Friday, 10 AM - 4 PM EST';
-    helperText.style.color = '#6b7280';
-    helperText.style.fontSize = '0.875rem';
-    helperText.style.marginTop = '0.25rem';
-    
-    datetimeInput.parentElement.appendChild(helperText);
-});

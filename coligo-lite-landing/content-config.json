@@ -1,8 +1,8 @@
 {
   "site": {
-    "title": "COLIGO - AI + MQTT for Real-Time Edge Analytics",
+    "title": "COLIGO lite - AI + MQTT for Real-Time Edge Analytics",
     "description": "Request a live demo of COLIGO lite - containerized AI module for edge analytics with streaming learning and MQTT integration",
-    "logo_text": "COLIGO ",
+    "logo_text": "COLIGO lite",
     "cta_button_text": "Book My Demo"
   },
   "hero": {
@@ -83,15 +83,15 @@
     "links": [
       {
         "text": "Privacy",
-        "url": "#privacy"
+        "url": "https://coligo.ai/datenschutz"
       },
       {
         "text": "Terms",
-        "url": "#terms"
+        "url": "https://coligo.ai/allgemeine-geschaeftsbedingungen"
       },
       {
         "text": "Contact",
-        "url": "#contact"
+        "url": "https://coligo.ai/kontakt"
       }
     ]
   }
